@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -28,7 +27,7 @@ const NotificationsList = () => {
           userId: 'user123',
           type: 'email',
           subject: 'Welcome to our platform',
-          message: 'Thank you for signing up! We're excited to have you on board.',
+          message: "Thank you for signing up! We're excited to have you on board.",
           status: 'delivered',
           createdAt: '2023-05-15T14:30:00Z'
         },
